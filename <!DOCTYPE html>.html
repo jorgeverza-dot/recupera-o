@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte e Futuro Sustentável - Agrinho 2026</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4fff4;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(90deg,#1b5e20,#43a047);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:45px;
+}
+
+header p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+nav{
+    background:#2e7d32;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero img{
+    width:90%;
+    max-width:900px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+}
+
+.hero h2{
+    margin:30px 0;
+    color:#2e7d32;
+    font-size:38px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:40px;
+}
+
+.card{
+    width:300px;
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+button{
+    margin-top:25px;
+    padding:15px 30px;
+    border:none;
+    border-radius:10px;
+    background:#2e7d32;
+    color:white;
+    cursor:pointer;
+    font-size:18px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1b5e20;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+#mensagem{
+    margin-top:20px;
+    font-size:22px;
+    color:#1b5e20;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>🌱 Agro Forte e Futuro Sustentável</h1>
+<p>Projeto Agrinho 2026</p>
+<p><strong>Autor: Jorge Ariel</strong></p>
+</header>
+
+<nav>
+<a href="#">Início</a>
+<a href="#">Sustentabilidade</a>
+<a href="#">Tecnologia</a>
+<a href="#">Agricultura</a>
+<a href="#">Contato</a>
+</nav>
+
+<section class="hero">
+
+<img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200" alt="Campo agrícola">
+
+<h2>Construindo um Futuro Melhor para o Campo</h2>
+
+<p>
+O agronegócio moderno utiliza tecnologia, inovação e responsabilidade ambiental para produzir alimentos,
+preservar a natureza e garantir qualidade de vida para as futuras gerações.
+</p>
+
+<button onclick="mostrarMensagem()">Clique para conhecer nossa missão</button>
+
+<div id="mensagem"></div>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h3>🌾 Agricultura Sustentável</h3>
+<p>
+Produzir alimentos respeitando o solo, a água e o meio ambiente é fundamental para um futuro melhor.
+</p>
+</div>
+
+<div class="card">
+<h3>🚜 Tecnologia no Campo</h3>
+<p>
+Máquinas inteligentes, drones e sensores ajudam os produtores a aumentar a produtividade com menor impacto ambiental.
+</p>
+</div>
+
+<div class="card">
+<h3>🌍 Preservação Ambiental</h3>
+<p>
+Plantar árvores, economizar água e proteger a biodiversidade garantem equilíbrio entre produção e natureza.
+</p>
+</div>
+
+</section>
+
+<footer>
+<h2>Projeto Agrinho 2026</h2>
+<p>🌱 Agro Forte e Futuro Sustentável</p>
+<p>Desenvolvido por <strong>Jorge Ariel</strong></p>
+</footer>
+
+<script>
+function mostrarMensagem(){
+document.getElementById("mensagem").innerHTML =
+"🌿 O futuro começa hoje! Agricultura forte, inovação e sustentabilidade caminham juntas para construir um mundo melhor.";
+}
+</script>
+
+</body>
+</html>
